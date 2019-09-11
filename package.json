@@ -1,0 +1,28 @@
+{
+  "name": "ana",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "ming",
+  "scripts": {
+    "dev": "webpack-dev-server --config scripts/config/webpack.dev.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.5.5",
+    "@types/html-webpack-plugin": "^3.2.1",
+    "@types/webpack": "^4.39.0",
+    "@types/webpack-dev-server": "^3.1.7",
+    "@types/webpack-merge": "^4.1.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  }
+}

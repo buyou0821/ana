@@ -1,0 +1,16 @@
+node_modules/
+.idea
+*.iml
+/dist
+/coverage
+/test-results
+/.vscode
+/docs
+.DS_Store
+*.bak
+npm-debug.log
+package-lock.json
+yarn-error.log
+*.swp
+yarn.lock
+.history
