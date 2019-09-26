@@ -1,7 +1,9 @@
-export function createElement(type) {
-  if (typeof type === 'function') {
-    return type();
-  }
-  const element = {};
-  console.log(type);
+import { merge } from './utils';
+
+export function createElement(type, props, ...children) {
+  return {
+    type,
+    props: merge(props, children),
+    key: props && props.key,
+  };
 }
